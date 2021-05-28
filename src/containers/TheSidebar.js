@@ -26,18 +26,10 @@ const TheSidebar = () => {
       show={show}
       onShowChange={(val) => dispatch({type: 'set', sidebarShow: val })}
     >
-      <CSidebarBrand className="d-md-down-none" to="/">
-        <CIcon
-          className="c-sidebar-brand-full d-none "
-          name="logo-negative"
-          height={35}
-        />
+      <CSidebarBrand className=" " to="/">
+        
         <p className="h2">Liquid<span className="text-info">Well</span> </p>
-        <CIcon
-          className="c-sidebar-brand-minimized"
-          name="sygnet"
-          height={35}
-        />
+        
       </CSidebarBrand>
 
       {/* nav starting from here */}
