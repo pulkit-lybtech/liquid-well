@@ -751,16 +751,19 @@ const Dashboard = () => {
           <CCard>
             <CCardHeader>
               <h4 className="card-title mb-0">Engagement  </h4>
+              <p className="mb-0 text-muted">
+                See Average time spent by user.
+              </p>
             </CCardHeader>
-            <CCardBody>
-            <table className="table table-bordered  mb-0 d-none d-sm-table">
-                <thead className="thead-light bg-light ">
+            <CCardBody className="p-0">
+            <table className="table table-bordered  mb-0   d-sm-table">
+                <thead className="thead-default ">
                   <tr>
                     <th className="text-center"><CIcon name="cil-people" /></th>
                     <th>User</th>
                     {/* <th className="text-center"></th> */}
-                    <th>Usage</th>
-                    <th>Activity</th>
+                    <th>Time spent</th>
+                    <th>Attempted</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -770,133 +773,102 @@ const Dashboard = () => {
                       </td>
                       <td>
                         <div>Rajat Kumar </div>
-                        <div className="small text-muted">
-                          <span>New</span> | Registered: Jan 1, 2015
-                        </div>
+                       
                       </td>
                       <td>
-                      <div className="clearfix">
-                          <div className="float-left">
-                            <strong>50%</strong>
+                          <div className="text-left">
+                            <strong>50 min </strong>
                           </div>
-                          <div className="float-right">
-                            <small className="text-muted">Jun 11, 2015</small>
-                          </div>
-                        </div>
-                        <CProgress className="progress-xs" color="success" value="50" />
                       </td>
                       <td>
-                        <div className="small text-muted">Last login</div>
-                        <strong>10 sec ago</strong>
+                        <div className="text-dark text-left">45</div>
                       </td>
                     </tr>
+                  
                     <tr>
                       <td className="text-center ">
                         1
                       </td>
                       <td>
                         <div>Rajat Kumar </div>
-                        <div className="small text-muted">
-                          <span>New</span> | Registered: Jan 1, 2015
-                        </div>
+                       
                       </td>
                       <td>
-                      <div className="clearfix">
-                          <div className="float-left">
-                            <strong>50%</strong>
+                          <div className="text-left">
+                            <strong>50 min </strong>
                           </div>
-                          <div className="float-right">
-                            <small className="text-muted">Jun 11, 2015</small>
-                          </div>
-                        </div>
-                        <CProgress className="progress-xs" color="success" value="50" />
                       </td>
                       <td>
-                        <div className="small text-muted">Last login</div>
-                        <strong>10 sec ago</strong>
+                        <div className="text-dark text-left">45</div>
                       </td>
                     </tr>
+                  
                     <tr>
                       <td className="text-center ">
                         1
                       </td>
                       <td>
                         <div>Rajat Kumar </div>
-                        <div className="small text-muted">
-                          <span>New</span> | Registered: Jan 1, 2015
-                        </div>
+                       
                       </td>
                       <td>
-                      <div className="clearfix">
-                          <div className="float-left">
-                            <strong>50%</strong>
+                          <div className="text-left">
+                            <strong>50 min </strong>
                           </div>
-                          <div className="float-right">
-                            <small className="text-muted">Jun 11, 2015</small>
-                          </div>
-                        </div>
-                        <CProgress className="progress-xs" color="success" value="50" />
                       </td>
                       <td>
-                        <div className="small text-muted">Last login</div>
-                        <strong>10 sec ago</strong>
+                        <div className="text-dark text-left">45</div>
                       </td>
                     </tr>
+                  
                     <tr>
                       <td className="text-center ">
                         1
                       </td>
                       <td>
                         <div>Rajat Kumar </div>
-                        <div className="small text-muted">
-                          <span>New</span> | Registered: Jan 1, 2015
-                        </div>
+                       
                       </td>
                       <td>
-                      <div className="clearfix">
-                          <div className="float-left">
-                            <strong>50%</strong>
+                          <div className="text-left">
+                            <strong>50 min </strong>
                           </div>
-                          <div className="float-right">
-                            <small className="text-muted">Jun 11, 2015</small>
-                          </div>
-                        </div>
-                        <CProgress className="progress-xs" color="success" value="50" />
                       </td>
                       <td>
-                        <div className="small text-muted">Last login</div>
-                        <strong>10 sec ago</strong>
+                        <div className="text-dark text-left">45</div>
                       </td>
                     </tr>
+                  
                     <tr>
                       <td className="text-center ">
                         1
                       </td>
                       <td>
                         <div>Rajat Kumar </div>
-                        <div className="small text-muted">
-                          <span>New</span> | Registered: Jan 1, 2015
-                        </div>
+                       
                       </td>
                       <td>
-                      <div className="clearfix">
-                          <div className="float-left">
-                            <strong>50%</strong>
+                          <div className="text-left">
+                            <strong>50 min </strong>
                           </div>
-                          <div className="float-right">
-                            <small className="text-muted">Jun 11, 2015</small>
-                          </div>
-                        </div>
-                        <CProgress className="progress-xs" color="success" value="50" />
                       </td>
                       <td>
-                        <div className="small text-muted">Last login</div>
-                        <strong>10 sec ago</strong>
+                        <div className="text-dark text-left">45</div>
                       </td>
                     </tr>
+                  
                 </tbody>
               </table>
             </CCardBody>
+            <CCardFooter className="d-flex ">
+              <p className="mb-0">
+                Total Time Spent
+              </p>
+              <div className="ml-auto text-right">
+                <strong>4 Hours</strong>
+              </div>
+
+            </CCardFooter>
           </CCard>
         </CCol>
       </CRow>

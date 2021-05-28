@@ -54,90 +54,21 @@ const _nav =  [
   {
     _tag: 'CSidebarNavDropdown',
     name: 'Text Analyzer',
-    route: '/base',
+    route: '/analyzer',
     icon: 'cil-puzzle',
-    _children: [
-      {
-        _tag: 'CSidebarNavItem',
-        name: 'View All',
-        to: '/base/breadcrumbs',
-      },
-      {
-        _tag: 'CSidebarNavItem',
-        name: 'Anazlyze Text',
-        to: '/base/cards',
-      },
-      // {
-      //   _tag: 'CSidebarNavItem',
-      //   name: 'Carousel',
-      //   to: '/base/carousels',
-      // },
-      // {
-      //   _tag: 'CSidebarNavItem',
-      //   name: 'Collapse',
-      //   to: '/base/collapses',
-      // },
-      // {
-      //   _tag: 'CSidebarNavItem',
-      //   name: 'Forms',
-      //   to: '/base/forms',
-      // },
-      // {
-      //   _tag: 'CSidebarNavItem',
-      //   name: 'Jumbotron',
-      //   to: '/base/jumbotrons',
-      // },
-      // {
-      //   _tag: 'CSidebarNavItem',
-      //   name: 'List group',
-      //   to: '/base/list-groups',
-      // },
-      // {
-      //   _tag: 'CSidebarNavItem',
-      //   name: 'Navs',
-      //   to: '/base/navs',
-      // },
-      // {
-      //   _tag: 'CSidebarNavItem',
-      //   name: 'Navbars',
-      //   to: '/base/navbars',
-      // },
-      // {
-      //   _tag: 'CSidebarNavItem',
-      //   name: 'Pagination',
-      //   to: '/base/paginations',
-      // },
-      // {
-      //   _tag: 'CSidebarNavItem',
-      //   name: 'Popovers',
-      //   to: '/base/popovers',
-      // },
-      // {
-      //   _tag: 'CSidebarNavItem',
-      //   name: 'Progress',
-      //   to: '/base/progress-bar',
-      // },
-      // {
-      //   _tag: 'CSidebarNavItem',
-      //   name: 'Switches',
-      //   to: '/base/switches',
-      // },
-      // {
-      //   _tag: 'CSidebarNavItem',
-      //   name: 'Tables',
-      //   to: '/base/tables',
-      // },
-      // {
-      //   _tag: 'CSidebarNavItem',
-      //   name: 'Tabs',
-      //   to: '/base/tabs',
-      // },
-      // {
-      //   _tag: 'CSidebarNavItem',
-      //   name: 'Tooltips',
-      //   to: '/base/tooltips',
-      // },
-    ],
+    // _children: [
+    //   {
+    //     _tag: 'CSidebarNavItem',
+    //     name: 'View All',
+    //     to: '/analyzer',
+    //   },
+    //   {
+    //     _tag: 'CSidebarNavItem',
+    //     name: 'Anazlyze Text',
+    //     to: '/add-analyzer',
+    //   },
+      
+    // ],
   },
   {
     _tag: 'CSidebarNavDropdown',
@@ -175,14 +106,14 @@ const _nav =  [
   },
   {
     _tag: 'CSidebarNavDropdown',
-    name: 'F A Q',
-    route: '/icons',
+    name: 'F.A.Q',
+    route: '/faq',
     icon: 'cil-star',
     _children: [
       {
         _tag: 'CSidebarNavItem',
         name: 'Add a FAQ',
-        to: '/icons/coreui-icons',
+        to: '/add-faq',
         // badge: {
         //   color: 'success',
         //   text: 'NEW',
@@ -191,7 +122,7 @@ const _nav =  [
       {
         _tag: 'CSidebarNavItem',
         name: 'View All FAQ',
-        to: '/icons/flags',
+        to: '/faq',
       },
       // {
       //   _tag: 'CSidebarNavItem',

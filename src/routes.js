@@ -1,4 +1,7 @@
 import React from 'react';
+import AddFaq from './views/custom/AddFaq';
+import Analyzer from './views/custom/Analyzer';
+import Faq from './views/custom/Faq';
 
 const Toaster = React.lazy(() => import('./views/notifications/toaster/Toaster'));
 const Tables = React.lazy(() => import('./views/base/tables/Tables'));
@@ -87,8 +90,10 @@ const routes = [
   
   /// custom path and componnt 
   { path: '/add-quest', exact: true, name: 'Add Questions', component: AddQuest },
-  { path: '/all-quest', exact: true, name: 'Add Questions', component: AllQuest },
-
+  { path: '/all-quest', exact: true, name: 'All Questions', component: AllQuest },
+  { path: '/analyzer', exact: true, name: 'Analyzer', component: Analyzer },
+  { path: '/faq', exact: true, name: 'FAQ ', component: Faq },
+  { path: '/add-faq', exact: true, name: 'Add new FAQ ', component: AddFaq },
 
 ];
 
