@@ -7,10 +7,6 @@ const _nav =  [
     name: 'Dashboard',
     to: '/dashboard',
     icon: <CIcon name="cil-speedometer" customClasses="c-sidebar-nav-icon"/>,
-    // badge: {
-    //   color: 'info',
-    //   text: 'NEW',
-    // }
   },
   // {
   //   _tag: 'CSidebarNavTitle',
@@ -56,35 +52,35 @@ const _nav =  [
     name: 'Text Analyzer',
     route: '/analyzer',
     icon: 'cil-puzzle',
-    // _children: [
-    //   {
-    //     _tag: 'CSidebarNavItem',
-    //     name: 'View All',
-    //     to: '/analyzer',
-    //   },
-    //   {
-    //     _tag: 'CSidebarNavItem',
-    //     name: 'Anazlyze Text',
-    //     to: '/add-analyzer',
-    //   },
+    _children: [
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'View All',
+        to: '/analyzer',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Anazlyze Text',
+        to: '/add-analyzer',
+      },
       
-    // ],
+    ],
   },
   {
     _tag: 'CSidebarNavDropdown',
     name: 'Result',
-    route: '/buttons',
+    route: '/',
     icon: 'cil-cursor',
     _children: [
       {
         _tag: 'CSidebarNavItem',
         name: 'All Results',
-        to: '/buttons/buttons',
+        to: '/',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'View Result',
-        to: '/buttons/brand-buttons',
+        to: '/',
       },
       // {
       //   _tag: 'CSidebarNavItem',
@@ -101,7 +97,7 @@ const _nav =  [
   {
     _tag: 'CSidebarNavItem',
     name: 'Analytics',
-    to: '/charts',
+    to: '/',
     icon: 'cil-chart-pie'
   },
   {
@@ -133,8 +129,8 @@ const _nav =  [
   },
   {
     _tag: 'CSidebarNavItem',
-    name: 'C M S',
-    route: '/notifications',
+    name: 'C. M. S',
+    route: '/',
     icon: 'cil-bell',
     // _children: [
     //   {
@@ -161,7 +157,7 @@ const _nav =  [
   },
   {
     _tag: 'CSidebarNavItem',
-    name: 'L M S',
+    name: 'L. M. S',
     to: '/lms',
     icon: 'cil-calculator',
     // badge: {
@@ -185,12 +181,12 @@ const _nav =  [
       {
         _tag: 'CSidebarNavItem',
         name: 'All plans',
-        to: '/login',
+        to: '/',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'Add New Plan',
-        to: '/register',
+        to: '/',
       },
       // {
       //   _tag: 'CSidebarNavItem',
@@ -213,12 +209,12 @@ const _nav =  [
       {
         _tag: 'CSidebarNavItem',
         name: 'All plans',
-        to: '/login',
+        to: '/',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'Add New Plan',
-        to: '/register',
+        to: '/',
       },
     ],
   },
@@ -231,18 +227,18 @@ const _nav =  [
   {
     _tag: 'CSidebarNavDropdown',
     name: 'User and Roles',
-    route: '/plans',
+    route: '/',
     icon: 'cil-user',
     _children: [
       {
         _tag: 'CSidebarNavItem',
         name: 'Manage Users',
-        to: '/login',
+        to: '/',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'Add new User ',
-        to: '/register',
+        to: '/',
       },
     ],
   },
