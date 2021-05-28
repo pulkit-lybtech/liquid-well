@@ -8,26 +8,7 @@ const _nav =  [
     to: '/dashboard',
     icon: <CIcon name="cil-speedometer" customClasses="c-sidebar-nav-icon"/>,
   },
-  // {
-  //   _tag: 'CSidebarNavTitle',
-  //   _children: ['Theme']
-  // },
-  // {
-  //   _tag: 'CSidebarNavItem',
-  //   name: 'Colors',
-  //   to: '/theme/colors',
-  //   icon: 'cil-drop',
-  // },
-  // {
-  //   _tag: 'CSidebarNavItem',
-  //   name: 'Typography',
-  //   to: '/theme/typography',
-  //   icon: 'cil-pencil',
-  // },
-  // {
-  //   _tag: 'CSidebarNavTitle',
-  //   _children: ['Components']
-  // },
+  
   {
     _tag: 'CSidebarNavDropdown',
     name: 'Questionnaire',
@@ -55,32 +36,31 @@ const _nav =  [
     _children: [
       {
         _tag: 'CSidebarNavItem',
-        name: 'View All',
-        to: '/analyzer',
+        name: 'Add Analyzer',
+        to: '/add-analyzer',
       },
       {
         _tag: 'CSidebarNavItem',
-        name: 'Anazlyze Text',
-        to: '/add-analyzer',
+        name: 'View Analyzer',
+        to: '/analyzer',
       },
-      
-    ],
+    ]
   },
   {
     _tag: 'CSidebarNavDropdown',
     name: 'Result',
-    route: '/',
+    route: '/result',
     icon: 'cil-cursor',
     _children: [
       {
         _tag: 'CSidebarNavItem',
-        name: 'All Results',
-        to: '/',
+        name: 'Add Result',
+        to: '/result',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'View Result',
-        to: '/',
+        to: '/results',
       },
       // {
       //   _tag: 'CSidebarNavItem',
@@ -130,7 +110,7 @@ const _nav =  [
   {
     _tag: 'CSidebarNavItem',
     name: 'C. M. S',
-    route: '/',
+    route: '/cms',
     icon: 'cil-bell',
     // _children: [
     //   {
@@ -175,18 +155,18 @@ const _nav =  [
   {
     _tag: 'CSidebarNavDropdown',
     name: 'Notifications',
-    route: '/pages',
+    route: '/notifs',
     icon: 'cil-bookmark',
     _children: [
       {
         _tag: 'CSidebarNavItem',
-        name: 'All plans',
-        to: '/',
+        name: 'View All',
+        to: '/plans',
       },
       {
         _tag: 'CSidebarNavItem',
-        name: 'Add New Plan',
-        to: '/',
+        name: 'Add New',
+        to: '/add-notif',
       },
       // {
       //   _tag: 'CSidebarNavItem',
@@ -209,12 +189,12 @@ const _nav =  [
       {
         _tag: 'CSidebarNavItem',
         name: 'All plans',
-        to: '/',
+        to: '/plans',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'Add New Plan',
-        to: '/',
+        to: '/add-plan',
       },
     ],
   },
@@ -227,18 +207,18 @@ const _nav =  [
   {
     _tag: 'CSidebarNavDropdown',
     name: 'User and Roles',
-    route: '/',
+    route: '/user',
     icon: 'cil-user',
     _children: [
       {
         _tag: 'CSidebarNavItem',
         name: 'Manage Users',
-        to: '/',
+        to: '/user',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'Add new User ',
-        to: '/',
+        to: '/add-user',
       },
     ],
   },
