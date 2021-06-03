@@ -44,6 +44,7 @@ const User = React.lazy(() => import('./views/users/User'));
 //// custom routes // 
 const AddQuest = React.lazy(() => import('./views/custom/AddNewQuest'));
 const AllQuest = React.lazy(() => import('./views/custom/AllQuest'));
+const Results = React.lazy(() => import('./views/custom/Results'));
 
 const routes = [
   { path: '/', exact: true, name: 'Home' },
@@ -94,6 +95,7 @@ const routes = [
   { path: '/analyzer', exact: true, name: 'Analyzer', component: Analyzer },
   { path: '/faq', exact: true, name: 'FAQ ', component: Faq },
   { path: '/add-faq', exact: true, name: 'Add new FAQ ', component: AddFaq },
+  { path: '/results', exact: true, name: 'View All Results ', component: Results },
 
 ];
 
