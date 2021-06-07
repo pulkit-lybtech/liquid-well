@@ -54,8 +54,12 @@ const _nav =  [
     _children: [
       {
         _tag: 'CSidebarNavItem',
-        name: 'Add Result',
+        name: 'Single Result',
         to: '/result',
+        badge: {
+        color: 'warning',
+        text: 'testing',
+        },
       },
       {
         _tag: 'CSidebarNavItem',
@@ -110,30 +114,9 @@ const _nav =  [
   {
     _tag: 'CSidebarNavItem',
     name: 'C. M. S',
-    route: '/cms',
+    to: '/cms',
     icon: 'cil-bell',
-    // _children: [
-    //   {
-    //     _tag: 'CSidebarNavItem',
-    //     name: 'Alerts',
-    //     to: '/notifications/alerts',
-    //   },
-    //   {
-    //     _tag: 'CSidebarNavItem',
-    //     name: 'Badges',
-    //     to: '/notifications/badges',
-    //   },
-    //   {
-    //     _tag: 'CSidebarNavItem',
-    //     name: 'Modal',
-    //     to: '/notifications/modals',
-    //   },
-    //   {
-    //     _tag: 'CSidebarNavItem',
-    //     name: 'Toaster',
-    //     to: '/notifications/toaster'
-    //   }
-    // ]
+    
   },
   {
     _tag: 'CSidebarNavItem',

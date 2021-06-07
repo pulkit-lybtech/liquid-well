@@ -1,7 +1,9 @@
 import React from 'react';
 import AddFaq from './views/custom/AddFaq';
+import AddResult from './views/custom/AddResult';
 import Analyzer from './views/custom/Analyzer';
 import Faq from './views/custom/Faq';
+import LeadManagement from './views/custom/LeadManagement';
 
 const Toaster = React.lazy(() => import('./views/notifications/toaster/Toaster'));
 const Tables = React.lazy(() => import('./views/base/tables/Tables'));
@@ -45,6 +47,7 @@ const User = React.lazy(() => import('./views/users/User'));
 const AddQuest = React.lazy(() => import('./views/custom/AddNewQuest'));
 const AllQuest = React.lazy(() => import('./views/custom/AllQuest'));
 const Results = React.lazy(() => import('./views/custom/Results'));
+const CustomerManagement = React.lazy(() => import('./views/custom/CustomerManagement'));
 
 const routes = [
   { path: '/', exact: true, name: 'Home' },
@@ -92,10 +95,13 @@ const routes = [
   /// custom path and componnt 
   { path: '/add-quest', exact: true, name: 'Add Questions', component: AddQuest },
   { path: '/all-quest', exact: true, name: 'All Questions', component: AllQuest },
-  { path: '/analyzer', exact: true, name: 'Analyzer', component: Analyzer },
+  { path: '/analyzer', exact: true, name: ' Analyzer', component: Analyzer },
   { path: '/faq', exact: true, name: 'FAQ ', component: Faq },
   { path: '/add-faq', exact: true, name: 'Add new FAQ ', component: AddFaq },
   { path: '/results', exact: true, name: 'View All Results ', component: Results },
+  { path: '/result', exact: true, name: 'Single Results ', component: AddResult },
+  { path: '/lms', exact: true, name: 'Lead Management ', component: LeadManagement },
+  { path: '/cms', exact: true, name: 'Lead Management ', component: CustomerManagement },
 
 ];
 

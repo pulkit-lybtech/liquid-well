@@ -65,6 +65,10 @@ export default function Analyzer() {
 		}
 	  }
 	
+
+	  ///  methods 
+
+	  
 	return (
 		<>
 			<CRow>
