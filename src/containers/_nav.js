@@ -81,7 +81,7 @@ const _nav =  [
   {
     _tag: 'CSidebarNavItem',
     name: 'Analytics',
-    to: '/',
+    to: '/analytics',
     icon: 'cil-chart-pie'
   },
   {
@@ -144,7 +144,7 @@ const _nav =  [
       {
         _tag: 'CSidebarNavItem',
         name: 'View All',
-        to: '/plans',
+        to: '/notifications',
       },
       {
         _tag: 'CSidebarNavItem',

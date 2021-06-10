@@ -78,7 +78,6 @@ export default function Analyzer() {
 							<h4 className="mb-0 card-title ">
 								Text Analyzer
 							</h4>
-							<Link className="btn btn-info " to="/add-quest">Add New</Link>
 						</CCardHeader>
 						<CCardBody>
 

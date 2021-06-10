@@ -349,9 +349,9 @@ export default function LeadManagement() {
 											Managed By  :
 											<select name="" id="" className="custom-select">
 												<option value="#">Animesh</option>
-												<option value="#">Raja</option>
-												<option value="#">Raja</option>
-												<option value="#">Raja</option>
+												<option value="#">Rajesh</option>
+												<option value="#">Rajat</option>
+												<option value="#">Rajan</option>
 											</select>
 										</label>
 									

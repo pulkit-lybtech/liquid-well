@@ -1,6 +1,7 @@
 import React from 'react';
 import AddFaq from './views/custom/AddFaq';
 import AddResult from './views/custom/AddResult';
+import Analytics from './views/custom/Analytics';
 import Analyzer from './views/custom/Analyzer';
 import Faq from './views/custom/Faq';
 import LeadManagement from './views/custom/LeadManagement';
@@ -102,6 +103,7 @@ const routes = [
   { path: '/result', exact: true, name: 'Single Results ', component: AddResult },
   { path: '/lms', exact: true, name: 'Lead Management ', component: LeadManagement },
   { path: '/cms', exact: true, name: 'Lead Management ', component: CustomerManagement },
+  { path: '/analytics', exact: true, name: 'Analytics ', component: Analytics },
 
 ];
 

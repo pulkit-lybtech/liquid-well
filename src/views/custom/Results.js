@@ -55,7 +55,7 @@ export default function AllQuest() {
 		<div className="card px-3">
 			<div className="card-header d-flex justify-content-between ">
 				<h4 className="mb-0 card-title">All Questions </h4> 
-				<Link className="btn btn-info " to="/add-quest">Add New</Link>
+				<Link className="btn btn-info " to="/result">Add New</Link>
 			</div>
 			<CDataTable
 			items={resultData}
