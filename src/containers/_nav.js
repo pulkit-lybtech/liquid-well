@@ -144,7 +144,7 @@ const _nav =  [
       {
         _tag: 'CSidebarNavItem',
         name: 'View All',
-        to: '/notifications',
+        to: '/notifs',
       },
       {
         _tag: 'CSidebarNavItem',
@@ -196,7 +196,7 @@ const _nav =  [
       {
         _tag: 'CSidebarNavItem',
         name: 'Manage Users',
-        to: '/user',
+        to: '/users',
       },
       {
         _tag: 'CSidebarNavItem',
@@ -206,9 +206,9 @@ const _nav =  [
     ],
   },
   {
-    _tag: 'CSidebarNavDropdown',
+    _tag: 'CSidebarNavItem',
     name: 'Privacy Policy',
-    route: '/privacy',
+    to: '/privacy',
     icon: 'cil-file',
   },
 

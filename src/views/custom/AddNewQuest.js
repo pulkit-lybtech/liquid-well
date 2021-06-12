@@ -1,4 +1,4 @@
-import { CCard, CCardBody, CCol,CCardHeader, CRow } from '@coreui/react'
+import { CCard, CCardBody, CCol,CCardHeader, CRow,CInputFile } from '@coreui/react'
 import React from 'react'
 
 export default function AddNewQuest() {
@@ -14,12 +14,19 @@ export default function AddNewQuest() {
 					<CCardBody>
 						<div className="form-group">
 							<label htmlFor="quest">Enter a Question and select an answer below </label>
-							<textarea className="form-control" name="quest" id="quest" cols="5" rows="10"></textarea>
+							<textarea className="form-control" name="quest" id="quest" cols="6" rows="10"></textarea>
+						</div>
+						<div className="form-group border rounded">
+							<span className="position-absolute">
+							Select a Video File
+							</span>
+							<CInputFile title="Select a Video" size="sm" type="file" custom="false" />
 						</div>
 						<div className="form-group mt-4">
 							<h5 className="h6 text-muted mb-4">
-								Please enter 4 answers and select and right one.
+								Please enter 4 answers and select the right one.
 							</h5>
+							
 							<div class="input-group mb-3">
 								<div class="input-group-prepend">
 									<div class="input-group-text">
@@ -51,6 +58,11 @@ export default function AddNewQuest() {
 									</div>
 									</div>
 								<input type="text" class="form-control"  />
+							</div>
+							<div className="">
+								<button className="btn btn-primary btn-lg ">
+									Save  
+								</button>
 							</div>
 						</div>
 
