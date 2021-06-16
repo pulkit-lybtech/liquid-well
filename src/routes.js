@@ -10,6 +10,8 @@ import AddUser from './views/custom/AddUser';
 import Users from './views/custom/Users';
 import AddNotif from './views/custom/AddNotif';
 import Privacy from './views/custom/Privacy';
+import Plans from './views/custom/Plans';
+import AddPlan from './views/custom/AddPlan';
 
 // const Toaster = React.lazy(() => import('./views/notifications/toaster/Toaster'));
 // const Tables = React.lazy(() => import('./views/base/tables/Tables'));
@@ -114,6 +116,8 @@ const routes = [
   { path: '/notifs', exact: true, name: 'Notifications ', component: Notification },
   { path: '/add-notif', exact: true, name: 'Add a New Notifications  ', component: AddNotif },
   { path: '/privacy', exact: true, name: 'Privacy Policies ', component: Privacy },
+  { path: '/plans', exact: true, name: 'View All Plans ', component: Plans },
+  { path: '/add-plan', exact: true, name: 'Add a New Plan ', component: AddPlan },
 ];
 
 export default routes;

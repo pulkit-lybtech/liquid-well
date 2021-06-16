@@ -20,7 +20,8 @@ export default function AddNotif() {
 										Purpose
 										<input type="text" className="form-control" />
 									</label>
-									<label htmlFor="//#endregion" className="col-md-6">
+									<label htmlFor
+									="//#endregion" className="col-md-6">
 										Select A Plan 
 										<select className="custom-select">
 											<option value="1">
