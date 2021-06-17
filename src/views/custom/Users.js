@@ -7,7 +7,6 @@ import {
 	CCol,
 	CDataTable,
 	CRow,
-	CPagination,
 	CCollapse,
 	CButton
   } from '@coreui/react'
@@ -111,7 +110,7 @@ export default function Users() {
 						size="sm"
 						onClick={()=>{toggleDetails(index)}}
 					  >
-						{details.includes(index) ? 'Hide' : 'Show'}
+						{details.includes(index) ? 'Close' : 'Edit'}
 					  </CButton>
 					</td>
 					)
