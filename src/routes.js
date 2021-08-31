@@ -12,6 +12,11 @@ import AddNotif from './views/custom/AddNotif';
 import Privacy from './views/custom/Privacy';
 import Plans from './views/custom/Plans';
 import AddPlan from './views/custom/AddPlan';
+import VmsEarning from './views/custom/VmsEarning';
+import VmsInterview from './views/custom/VmsInterview';
+import VmsQuestion from './views/custom/VMSQuestion';
+import Calendar from './views/custom/VmsCalendar';
+import VmsInterviewer from './views/custom/VmsInterviewer';
 
 // const Toaster = React.lazy(() => import('./views/notifications/toaster/Toaster'));
 // const Tables = React.lazy(() => import('./views/base/tables/Tables'));
@@ -118,6 +123,18 @@ const routes = [
   { path: '/privacy', exact: true, name: 'Privacy Policies ', component: Privacy },
   { path: '/plans', exact: true, name: 'View All Plans ', component: Plans },
   { path: '/add-plan', exact: true, name: 'Add a New Plan ', component: AddPlan },
+  { path: '/vms-earning', exact: true, name: 'VMS Earning  ', component: VmsEarning },
+  { path: '/vms-interview', exact: true, name: 'VMS Interview  ', component: VmsInterview },
+  { path: '/vms-interviewer', exact: true, name: 'VMS Interviewer  ', component: VmsInterviewer },
+  { path: '/vms-question', exact: true, name: 'VMS Question  ', component: VmsQuestion },
+  { path: '/vms-calendar', exact: true, name: 'VMS Question  ', component: Calendar },
+
+
+
+
+
+
+
 ];
 
 export default routes;

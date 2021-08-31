@@ -111,6 +111,42 @@ const _nav =  [
       // },
     ],
   },
+
+  {
+    _tag: 'CSidebarNavDropdown',
+    name: 'Vendor Management ',
+    route: '/vms',
+    icon: 'cil-credit-card',
+    _children: [
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'VMS Earning ',
+        to: '/vms-earning',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'VMS Interview',
+        to: '/vms-interview',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'VMS Question',
+        to: '/vms-question',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'VMS Calendar',
+        to: '/vms-calendar',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Interviewer Management',
+        to: '/vms-interviewer',
+      },
+    ],
+  },
+
+
   {
     _tag: 'CSidebarNavItem',
     name: 'C. M. S',

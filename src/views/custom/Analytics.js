@@ -294,34 +294,28 @@ export default function Analytics() {
 				
 
 						<div className="col-lg-3 col-md-6 ">
-								<h4 className="card-title">Users By Gender</h4> 
+								<h4 className="card-title">Average of Duration of number of upload</h4> 
 								<ul className="list-group">
 										<li className="list-group-item justify-content-between d-flex  flex-wrap align-items-center ">
 											Male 
 											<span className="badge badge-light">
 												60%
 											</span>
-											<div className="flex-grow-1 w-100 mt-3">
-												<CProgress size="sm" color="success" value={60}  />
-											</div>
+											 
 										</li>
 									<li className="list-group-item justify-content-between d-flex  flex-wrap align-items-center ">
 											Female 
 											<span className="badge badge-light">
 												30%
 											</span>
-											<div className="flex-grow-1 w-100 mt-3">
-												<CProgress size="sm" color="warning" value={30}  />
-											</div>
+											
 									</li>
 									<li className="list-group-item justify-content-between d-flex  flex-wrap align-items-center ">
 											Others 
 											<span className="badge badge-light">
 												10%
 											</span>
-											<div className="flex-grow-1 w-100 mt-3">
-												<CProgress size="sm" color="info" value={10}  />
-											</div>
+											
 									</li>
 								</ul>
 							</div>

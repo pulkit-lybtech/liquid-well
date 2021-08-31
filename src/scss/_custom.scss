@@ -7,3 +7,17 @@
 }
 
 
+
+.calendar{
+	.bg{
+		height: 48px;
+		width: 100%;
+		border: 0;
+		box-shadow: none;
+		cursor: pointer;
+		&:focus{
+			border: 0;
+			box-shadow: none;
+		}
+	}
+}
